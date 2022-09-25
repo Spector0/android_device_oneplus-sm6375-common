@@ -1,0 +1,4 @@
+service vendor.qti.vibrator.oneplus_holi /vendor/bin/hw/vendor.qti.hardware.vibrator.service.oneplus_holi
+    class hal
+    user system
+    group system input
