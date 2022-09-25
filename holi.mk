@@ -163,7 +163,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    android.hardware.biometrics.fingerprint@2.3-service.oneplus \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # FM
@@ -262,11 +262,6 @@ PRODUCT_PACKAGES += \
     libstagefright_omx \
     libstagefright_foundation \
     libstagefright_softomx.vendor
-
-# Mlipay
-PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.mlipay@1.1.vendor \
-    vendor.xiaomi.hardware.mtdservice@1.0.vendor
 
 # Net
 PRODUCT_PACKAGES += \
@@ -404,7 +399,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.batterysecret.rc \
     init.class_main.sh \
-    init.mi.btmac.sh \
     init.kernel.post_boot.sh \
     init.kernel.post_boot-blair.sh \
     init.kernel.post_boot-holi.sh \
@@ -414,7 +408,7 @@ PRODUCT_PACKAGES += \
     init.qti.kernel.rc \
     init.qti.ufs.rc \
     init.target.rc \
-    init.xiaomi.rc \
+    init.oneplus.rc \
     ueventd.qcom.rc \
     vendor_modprobe.sh
 
@@ -430,7 +424,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.xiaomi_holi-multihal \
+    android.hardware.sensors@2.1-service.-multihal \
     libsensorndkbridge
 
 # Servicetracker
@@ -442,7 +436,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/oneplus
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -487,7 +481,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.xiaomi_holi
+    vendor.qti.hardware.vibrator.service.oneplus_holi
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
@@ -518,4 +512,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/sm6375-common/sm6375-common-vendor.mk)
+$(call inherit-product, vendor/oneplus/sm6375-common/sm6375-common-vendor.mk)
