@@ -83,4 +83,10 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <vendor-ndk>
+        <version>32</version>
+    </vendor-ndk>
+    <system-sdk>
+        <version>32</version>
+    </system-sdk>
 </compatibility-matrix>
