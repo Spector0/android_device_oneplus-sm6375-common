@@ -177,6 +177,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qfp=true \
     ro.board.api_level=30 \
     ro.board.first_api_level=30 \
+    ro.build.version.sdk=31 \
     ro.control_privapp_permissions=enforce \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
