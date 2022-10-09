@@ -4,38 +4,6 @@
         oplus_framework_compatibility_matrix.xml
 -->
 <compatibility-matrix version="4.0" type="framework">
-<hal format="hidl" optional="true">
-    <name>android.hardware.audio</name>
-    <version>6.0</version>
-    <interface>
-        <name>IDevicesFactory</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>android.hardware.audio.effect</name>
-    <version>6.0</version>
-    <interface>
-        <name>IEffectsFactory</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>android.hardware.gatekeeper</name>
-    <version>1.0</version>
-    <interface>
-        <name>IGatekeeper</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.oplus.hardware.dsphelper</name>
-    <version>1.0</version>
-    <interface>
-        <name>IDspHelper</name>
-        <instance>default</instance>
-    </interface>
-</hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.automotive.evs</name>
         <version>1.1</version>
