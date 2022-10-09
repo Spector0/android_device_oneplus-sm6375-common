@@ -4,7 +4,7 @@
         oplus_framework_compatibility_matrix.xml
 -->
 <compatibility-matrix version="4.0" type="framework">
-    <hal format="hidl" optional="true">
+<hal format="hidl" optional="true">
     <name>android.hardware.audio</name>
     <version>6.0</version>
     <interface>
