@@ -7,6 +7,8 @@
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+#HACK
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
