@@ -1,4 +1,4 @@
-#<manifest version="1.0" type="device" target-level="6">
+#<manifest version="1.0" type="device" target-level="5">
     <hal format="hidl">
         <name>vendor.qti.hardware.wifi.supplicant</name>
         <transport>hwbinder</transport>
@@ -43,5 +43,6 @@
             <name>IDspHelper</name>
             <instance>default</instance>
         </interface>
-    </hal>    
+    </hal>
+ <kernel target-level="5"/> 
 </manifest>
